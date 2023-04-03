@@ -9,3 +9,4 @@ Please cite our paper when you used our code
 
 To get better result, you need to fine-tune the learning rate, the temperature, the masked_num
 
+More advanced data augmentation methods will bring better performance such methods used in UNSW-NB15
