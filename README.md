@@ -1,5 +1,5 @@
 ### Paper_TNSM
-**Code for paper Contrastive Learning Enhanced Intrusion Detection
+Code for paper Contrastive Learning Enhanced Intrusion Detection
 
 
 
