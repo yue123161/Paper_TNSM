@@ -196,8 +196,6 @@ if __name__ == '__main__':
 
     test_X, test_Y = data_reader(test_path)
 
-    print(set(test_Y))
-
     encoder = Encoder().to(device)
     header = Header(header='linear').to(device)
     classifier = LinearClassifier().to(device)
