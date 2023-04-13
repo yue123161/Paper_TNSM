@@ -17,6 +17,8 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
+from aux_util import plot_reliability_diagrams, plot_histograms
+
 device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
 
 from dataset import MyDataset, MyDatasetSampler
@@ -261,58 +263,61 @@ def main(temperature,mask_K,result_file):
             mask_0=mask_0.to(device)
             data_0=data_0*mask_0
 
-            data_1 = data.clone()
-            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            mask_1 = mask_temp_one_hot[:, 0, :].int().float()
-            if (mask_temp_one_hot.size(1) >= 2):
-                for i in range(1, mask_temp_one_hot.size(1)):
-                    mask_1 = mask_1 * (mask_temp_one_hot[:, i, :].int().float())
-            mask_1 = mask_1.to(device)
-            data_1= data_1 * mask_1
+            # data_1 = data.clone()
+            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            # mask_1 = mask_temp_one_hot[:, 0, :].int().float()
+            # if (mask_temp_one_hot.size(1) >= 2):
+            #     for i in range(1, mask_temp_one_hot.size(1)):
+            #         mask_1 = mask_1 * (mask_temp_one_hot[:, i, :].int().float())
+            # mask_1 = mask_1.to(device)
+            # data_1= data_1 * mask_1
 
-            data_2 = data.clone()
-            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            mask_2 = mask_temp_one_hot[:, 0, :].int().float()
-            if (mask_temp_one_hot.size(1) >= 2):
-                for i in range(1, mask_temp_one_hot.size(1)):
-                    mask_2 = mask_2* (mask_temp_one_hot[:, i, :].int().float())
-            mask_2 = mask_2.to(device)
-            data_2= data_2 * mask_2
+            # data_2 = data.clone()
+            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            # mask_2 = mask_temp_one_hot[:, 0, :].int().float()
+            # if (mask_temp_one_hot.size(1) >= 2):
+            #     for i in range(1, mask_temp_one_hot.size(1)):
+            #         mask_2 = mask_2* (mask_temp_one_hot[:, i, :].int().float())
+            # mask_2 = mask_2.to(device)
+            # data_2= data_2 * mask_2
+            #
+            # data_3 = data.clone()
+            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            # mask_3 = mask_temp_one_hot[:, 0, :].int().float()
+            # if (mask_temp_one_hot.size(1) >= 2):
+            #     for i in range(1, mask_temp_one_hot.size(1)):
+            #         mask_3 = mask_3 * (mask_temp_one_hot[:, i, :].int().float())
+            # mask_3 = mask_3.to(device)
+            # data_3 = data_3 * mask_3
 
-            data_3 = data.clone()
-            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            mask_3 = mask_temp_one_hot[:, 0, :].int().float()
-            if (mask_temp_one_hot.size(1) >= 2):
-                for i in range(1, mask_temp_one_hot.size(1)):
-                    mask_3 = mask_3 * (mask_temp_one_hot[:, i, :].int().float())
-            mask_3 = mask_3.to(device)
-            data_3 = data_3 * mask_3
+            # data_4 = data.clone()
+            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            # mask_4 = mask_temp_one_hot[:, 0, :].int().float()
+            # if (mask_temp_one_hot.size(1) >= 2):
+            #     for i in range(1, mask_temp_one_hot.size(1)):
+            #         mask_4 = mask_4 * (mask_temp_one_hot[:, i, :].int().float())
+            # mask_4 = mask_4.to(device)
+            # data_4 = data_4 * mask_4
+            #
+            # data_5 = data.clone()
+            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            # mask_5= mask_temp_one_hot[:, 0, :].int().float()
+            # if (mask_temp_one_hot.size(1) >= 2):
+            #     for i in range(1, mask_temp_one_hot.size(1)):
+            #         mask_5 = mask_5 * (mask_temp_one_hot[:, i, :].int().float())
+            # mask_5 = mask_5.to(device)
+            # data_5 = data_5 * mask_5
 
-            data_4 = data.clone()
-            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            mask_4 = mask_temp_one_hot[:, 0, :].int().float()
-            if (mask_temp_one_hot.size(1) >= 2):
-                for i in range(1, mask_temp_one_hot.size(1)):
-                    mask_4 = mask_4 * (mask_temp_one_hot[:, i, :].int().float())
-            mask_4 = mask_4.to(device)
-            data_4 = data_4 * mask_4
-
-            data_5 = data.clone()
-            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            mask_5= mask_temp_one_hot[:, 0, :].int().float()
-            if (mask_temp_one_hot.size(1) >= 2):
-                for i in range(1, mask_temp_one_hot.size(1)):
-                    mask_5 = mask_5 * (mask_temp_one_hot[:, i, :].int().float())
-            mask_5 = mask_5.to(device)
-            data_5 = data_5 * mask_5
+            # data_new = torch.cat(
+            #     [data, data_0, data_1, data_2, data_3, data_4, data_5], dim=0)
 
             data_new = torch.cat(
-                [data, data_0, data_1, data_2, data_3, data_4, data_5], dim=0)
+                [data, data_0], dim=0)
 
             bsz = label.shape[0]
 
@@ -320,11 +325,17 @@ def main(temperature,mask_K,result_file):
 
             features = header(features)
 
-            f1, f2, f3, f4, f5, f6, f7 = torch.split(features, [bsz, bsz, bsz, bsz, bsz, bsz, bsz], dim=0)
+            f1, f2 = torch.split(features, [bsz, bsz], dim=0)
 
             features = torch.cat(
-                [f1.unsqueeze(1), f2.unsqueeze(1), f3.unsqueeze(1), f4.unsqueeze(1), f5.unsqueeze(1),
-                 f6.unsqueeze(1), f7.unsqueeze(1)], dim=1)
+                [f1.unsqueeze(1), f2.unsqueeze(1)], dim=1)
+
+
+            # f1, f2, f3, f4, f5, f6, f7 = torch.split(features, [bsz, bsz, bsz, bsz, bsz, bsz, bsz], dim=0)
+
+            # features = torch.cat(
+            #     [f1.unsqueeze(1), f2.unsqueeze(1), f3.unsqueeze(1), f4.unsqueeze(1), f5.unsqueeze(1),
+            #      f6.unsqueeze(1), f7.unsqueeze(1)], dim=1)
 
             loss_sup = criterion_sup(features, label)
 
@@ -391,6 +402,8 @@ def main(temperature,mask_K,result_file):
 
     label_test = []
     label_predict_test = []
+    confidences = []
+
     test_bar = tqdm(test_loader)
     for data, label in test_bar:
         label = label != 0
@@ -400,7 +413,8 @@ def main(temperature,mask_K,result_file):
         feature = encoder(data)
         output = classifier(feature)
 
-        predict = torch.max(output, 1)[1]
+        confidence,predict = torch.max(output, 1)
+        confidences.append(confidence.detach().cpu().numpy())
         label_predict_test.append(predict.cpu().numpy())
 
 
@@ -409,6 +423,8 @@ def main(temperature,mask_K,result_file):
 
     title = "dnn_contrast-" + str(temperature) + "-" + str(mask_K)
 
+    plot_reliability_diagrams(title + 'reliability', label_predict_test, confidences, label_test)
+    plot_histograms(title + 'confidence', label_predict_test, confidences, label_test)
 
 
     # 计算准确率、召回率、误报率
@@ -432,6 +448,8 @@ def main(temperature,mask_K,result_file):
     print("xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx", file=result_file)
 
     data_write_csv('./results/nslkdd_dnn_model_20211109' + title + '.csv', datas)
+
+
 
 
 if __name__ == '__main__':
