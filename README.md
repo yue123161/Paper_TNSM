@@ -14,6 +14,13 @@ The idea of our paper can be illustrated as
 ![image{100}](https://github.com/yue123161/Paper_TNSM/blob/master/images/diagram_1.gif)
 
 
+### Running Steps
+1.unzip dataset in data fold
+2.NSL-KDD
+python NSL_KDD_Grid_Search.py
+3.UNSW-NB15
+python UNSW_supcontrast_no_fold_93.01.py
+
 Acknowledgments
 ===
 It is an implemenation of the algorithm described in *Yue Y, Chen X, Han Z, et al. Contrastive Learning Enhanced Intrusion Detection[J]. IEEE Transactions on Network and Service Management, 2022.*
