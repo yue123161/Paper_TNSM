@@ -17,7 +17,7 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from aux_util import plot_reliability_diagrams, plot_histograms
+# from aux_util import plot_reliability_diagrams, plot_histograms
 
 device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
 
@@ -423,8 +423,8 @@ def main(temperature,mask_K,result_file):
 
     title = "dnn_contrast-" + str(temperature) + "-" + str(mask_K)
 
-    plot_reliability_diagrams(title + 'reliability', label_predict_test, confidences, label_test)
-    plot_histograms(title + 'confidence', label_predict_test, confidences, label_test)
+    # plot_reliability_diagrams(title + 'reliability', label_predict_test, confidences, label_test)
+    # plot_histograms(title + 'confidence', label_predict_test, confidences, label_test)
 
 
     # 计算准确率、召回率、误报率
