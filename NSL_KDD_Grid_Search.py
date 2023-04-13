@@ -253,71 +253,74 @@ def main(temperature,mask_K,result_file):
             label = label != 0
             label = label.long().to(device)
             # 数据操作
+            # 1 连续数据增加高斯噪声
             data_0 = data.clone()
-            mask_temp=torch.randint(high=K,size=(len(label),mask_K))
-            mask_temp_one_hot=(F.one_hot(mask_temp,num_classes=input_lenth)==0)
-            mask_0=mask_temp_one_hot[:,0,:].int().float()
-            if(mask_temp_one_hot.size(1)>=2):
-                for i in range(1,mask_temp_one_hot.size(1)):
-                    mask_0=mask_0*(mask_temp_one_hot[:, i, :].int().float())
-            mask_0=mask_0.to(device)
-            data_0=data_0*mask_0
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_0 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_0 = mask_0 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_0 = mask_0.to(device)
+            data_0 = data_0 * mask_0
 
-            # data_1 = data.clone()
-            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            # mask_1 = mask_temp_one_hot[:, 0, :].int().float()
-            # if (mask_temp_one_hot.size(1) >= 2):
-            #     for i in range(1, mask_temp_one_hot.size(1)):
-            #         mask_1 = mask_1 * (mask_temp_one_hot[:, i, :].int().float())
-            # mask_1 = mask_1.to(device)
-            # data_1= data_1 * mask_1
+            # 2 连续数据增加高斯噪声
+            data_1 = data.clone()
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_1 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_1 = mask_1 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_1 = mask_1.to(device)
+            data_1 = data_1 * mask_1
 
-            # data_2 = data.clone()
-            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            # mask_2 = mask_temp_one_hot[:, 0, :].int().float()
-            # if (mask_temp_one_hot.size(1) >= 2):
-            #     for i in range(1, mask_temp_one_hot.size(1)):
-            #         mask_2 = mask_2* (mask_temp_one_hot[:, i, :].int().float())
-            # mask_2 = mask_2.to(device)
-            # data_2= data_2 * mask_2
-            #
-            # data_3 = data.clone()
-            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            # mask_3 = mask_temp_one_hot[:, 0, :].int().float()
-            # if (mask_temp_one_hot.size(1) >= 2):
-            #     for i in range(1, mask_temp_one_hot.size(1)):
-            #         mask_3 = mask_3 * (mask_temp_one_hot[:, i, :].int().float())
-            # mask_3 = mask_3.to(device)
-            # data_3 = data_3 * mask_3
+            # 3 连续数据增加高斯噪声
+            data_2 = data.clone()
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_2 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_2 = mask_2 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_2 = mask_2.to(device)
+            data_2 = data_2 * mask_2
 
-            # data_4 = data.clone()
-            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            # mask_4 = mask_temp_one_hot[:, 0, :].int().float()
-            # if (mask_temp_one_hot.size(1) >= 2):
-            #     for i in range(1, mask_temp_one_hot.size(1)):
-            #         mask_4 = mask_4 * (mask_temp_one_hot[:, i, :].int().float())
-            # mask_4 = mask_4.to(device)
-            # data_4 = data_4 * mask_4
-            #
-            # data_5 = data.clone()
-            # mask_temp = torch.randint(high=K, size=(len(label), mask_K))
-            # mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
-            # mask_5= mask_temp_one_hot[:, 0, :].int().float()
-            # if (mask_temp_one_hot.size(1) >= 2):
-            #     for i in range(1, mask_temp_one_hot.size(1)):
-            #         mask_5 = mask_5 * (mask_temp_one_hot[:, i, :].int().float())
-            # mask_5 = mask_5.to(device)
-            # data_5 = data_5 * mask_5
+            # 4 连续数据增加高斯噪声
+            data_3 = data.clone()
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_3 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_3 = mask_3 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_3 = mask_3.to(device)
+            data_3 = data_3 * mask_3
 
-            # data_new = torch.cat(
-            #     [data, data_0, data_1, data_2, data_3, data_4, data_5], dim=0)
+            # 5 连续数据增加高斯噪声
+            data_4 = data.clone()
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_4 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_4 = mask_4 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_4 = mask_4.to(device)
+            data_4 = data_4 * mask_4
+
+            # 6 连续数据增加高斯噪声
+            data_5 = data.clone()
+            mask_temp = torch.randint(high=K, size=(len(label), mask_K))
+            mask_temp_one_hot = (F.one_hot(mask_temp, num_classes=input_lenth) == 0)
+            mask_5 = mask_temp_one_hot[:, 0, :].int().float()
+            if (mask_temp_one_hot.size(1) >= 2):
+                for i in range(1, mask_temp_one_hot.size(1)):
+                    mask_5 = mask_5 * (mask_temp_one_hot[:, i, :].int().float())
+            mask_5 = mask_5.to(device)
+            data_5 = data_5 * mask_5
 
             data_new = torch.cat(
-                [data, data_0], dim=0)
+                [data, data_0, data_1, data_2, data_3, data_4, data_5], dim=0)
 
             bsz = label.shape[0]
 
@@ -325,17 +328,11 @@ def main(temperature,mask_K,result_file):
 
             features = header(features)
 
-            f1, f2 = torch.split(features, [bsz, bsz], dim=0)
+            f1, f2, f3, f4, f5, f6, f7 = torch.split(features, [bsz, bsz, bsz, bsz, bsz, bsz, bsz], dim=0)
 
             features = torch.cat(
-                [f1.unsqueeze(1), f2.unsqueeze(1)], dim=1)
-
-
-            # f1, f2, f3, f4, f5, f6, f7 = torch.split(features, [bsz, bsz, bsz, bsz, bsz, bsz, bsz], dim=0)
-
-            # features = torch.cat(
-            #     [f1.unsqueeze(1), f2.unsqueeze(1), f3.unsqueeze(1), f4.unsqueeze(1), f5.unsqueeze(1),
-            #      f6.unsqueeze(1), f7.unsqueeze(1)], dim=1)
+                [f1.unsqueeze(1), f2.unsqueeze(1), f3.unsqueeze(1), f4.unsqueeze(1), f5.unsqueeze(1),
+                 f6.unsqueeze(1), f7.unsqueeze(1)], dim=1)
 
             loss_sup = criterion_sup(features, label)
 
@@ -350,6 +347,9 @@ def main(temperature,mask_K,result_file):
             loss = loss.sum()
             loss.backward()
 
+            # torch.nn.utils.clip_grad_norm_(encoder.parameters(), 0.5)
+            # torch.nn.utils.clip_grad_norm_(header.parameters(), 0.5)
+            # torch.nn.utils.clip_grad_norm_(classifier.parameters(), 0.5)
 
             optimizer.step()
 
@@ -362,7 +362,6 @@ def main(temperature,mask_K,result_file):
                                                                                           loss_sup.mean(),
                                                                                           loss_ce.mean(),
                                                                                           train_correct / train_total))
-
 
         test_loss, test_total, test_correct, test_bar = 0.0, 0, 0, tqdm(test_loader)
         encoder.eval()
@@ -387,6 +386,7 @@ def main(temperature,mask_K,result_file):
 
             test_correct += (predict == label).sum()
 
+            # aucroc(output,label)
 
             test_bar.set_description(
                 'Test Epoch: [{}/{}] Loss: {:.4f} ACC:{:.4f} '.format(epoch, num_epoches,
@@ -395,6 +395,8 @@ def main(temperature,mask_K,result_file):
 
         datas.append([epoch, train_loss / train_total, train_correct / train_total, test_loss / test_total,
                       test_correct / test_total])
+
+
 
 
 
