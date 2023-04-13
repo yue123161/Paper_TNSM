@@ -27,8 +27,10 @@ It is an implemenation of the algorithm described in *Yue Y, Chen X, Han Z, et a
 
 Please cite our paper when you used our code  
 
-To get better result, you need to fine-tune the learning rate, the temperature, the masked_num  
-
 More advanced data augmentation methods will bring better performance such methods used in UNSW-NB15  
 
 To accelerate the training process, gpu is need!!! 
+
+Here we did not fine-tune hyperparameters, such as learning rate.   
+
+To get better result, you need to fine-tune the learning rate, the temperature, the masked_num  
