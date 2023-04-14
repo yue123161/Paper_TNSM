@@ -1,0 +1,1254 @@
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:9
+Accuracy:0.8666607523066004
+Precision:0.8749295753914326
+Recall:0.8777294983403092
+f1 score:0.8666200122934195
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:7
+Accuracy:0.8559261887863733
+Precision:0.8671302212561661
+Recall:0.8682233159464765
+f1 score:0.8559204724600515
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:5
+Accuracy:0.8661728176011355
+Precision:0.8750020201532713
+Recall:0.8775048594515679
+f1 score:0.8661414687020224
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:3
+Accuracy:0.8604063165365508
+Precision:0.8702288656910924
+Recall:0.8721364754464002
+f1 score:0.8603881728094038
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:2
+Accuracy:0.8543736692689851
+Precision:0.8667174947180554
+Recall:0.8671388444927155
+f1 score:0.8543728643872077
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.87      0.87      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:1.0
+Mask number:1
+Accuracy:0.8698988644428672
+Precision:0.8767937268544798
+Recall:0.8803153526466976
+f1 score:0.8698293417483184
+              precision    recall  f1-score   support
+
+           0       0.79      0.97      0.87      9889
+           1       0.97      0.80      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:9
+Accuracy:0.8676366217175302
+Precision:0.8755296711486413
+Recall:0.8785324130643506
+f1 score:0.8675888962719074
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.87      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:7
+Accuracy:0.8560592618878637
+Precision:0.8673544834250833
+Recall:0.8683971019445837
+f1 score:0.8560541000437512
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:5
+Accuracy:0.8636887863733144
+Precision:0.8732057431095066
+Recall:0.8753143975568558
+f1 score:0.8636669978013669
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.78      0.87     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.88      0.86     22544
+weighted avg       0.89      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:3
+Accuracy:0.8592530163236338
+Precision:0.8695037950726026
+Recall:0.8711644692675022
+f1 score:0.8592394892632153
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:2
+Accuracy:0.84958303761533
+Precision:0.863266684814697
+Recall:0.8628496540760882
+f1 score:0.8495822678161622
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.75      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.6
+Mask number:1
+Accuracy:0.8660397444996452
+Precision:0.87414537005727
+Recall:0.8770216411252216
+f1 score:0.8659958533848173
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:9
+Accuracy:0.8668381831085876
+Precision:0.8748149051679484
+Recall:0.8777659759402061
+f1 score:0.8667919485085583
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:7
+Accuracy:0.8566359119943222
+Precision:0.8677465919698462
+Recall:0.8688996817659025
+f1 score:0.8566295648237432
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:5
+Accuracy:0.8662171753016323
+Precision:0.8749652277931645
+Recall:0.8775112160628971
+f1 score:0.8661845518710477
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:3
+Accuracy:0.8579222853087296
+Precision:0.8681833973720677
+Recall:0.8698244508513084
+f1 score:0.8579088764064234
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:2
+Accuracy:0.8553495386799148
+Precision:0.8673365332198282
+Recall:0.8679749126804968
+f1 score:0.8553476712964204
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.4
+Mask number:1
+Accuracy:0.870431156848829
+Precision:0.8771810229756667
+Recall:0.8807784223929473
+f1 score:0.8703581454199935
+              precision    recall  f1-score   support
+
+           0       0.79      0.97      0.87      9889
+           1       0.97      0.80      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:9
+Accuracy:0.8673261178140526
+Precision:0.8753625725652581
+Recall:0.8782889960026063
+f1 score:0.8672811432591632
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:7
+Accuracy:0.8517565649396736
+Precision:0.8643430690189166
+Recall:0.8645977781266168
+f1 score:0.851756266254029
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:5
+Accuracy:0.8652413058907026
+Precision:0.8743086506062504
+Recall:0.8766751478751158
+f1 score:0.865213465548059
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.78      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:3
+Accuracy:0.8591199432221434
+Precision:0.8692585834206743
+Recall:0.870979632114815
+f1 score:0.8591052780067849
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:2
+Accuracy:0.8516678495386799
+Precision:0.8647389205262526
+Recall:0.8647066276043378
+f1 score:0.851667844868933
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.2
+Mask number:1
+Accuracy:0.8624024130589071
+Precision:0.8709111822280746
+Recall:0.8735386895687929
+f1 score:0.8623653390701498
+              precision    recall  f1-score   support
+
+           0       0.78      0.96      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:9
+Accuracy:0.8671486870120653
+Precision:0.875004756179228
+Recall:0.8780204441565302
+f1 score:0.8671001115203751
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:7
+Accuracy:0.8563697657913414
+Precision:0.8672239553554334
+Recall:0.8685189563059482
+f1 score:0.8563615979657391
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:5
+Accuracy:0.8704755145493258
+Precision:0.8780335777075039
+Recall:0.8812378763420551
+f1 score:0.8704215651713596
+              precision    recall  f1-score   support
+
+           0       0.79      0.97      0.87      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:3
+Accuracy:0.8579666430092264
+Precision:0.8680441343553831
+Recall:0.8697866028443179
+f1 score:0.8579513389404851
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:2
+Accuracy:0.853042938254081
+Precision:0.8657422239813464
+Recall:0.8659424910860611
+f1 score:0.8530427575328983
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.87      0.87      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.07
+Mask number:1
+Accuracy:0.8669712562100781
+Precision:0.8744509578318818
+Recall:0.8776524319192344
+f1 score:0.8669146356381092
+              precision    recall  f1-score   support
+
+           0       0.78      0.96      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:9
+Accuracy:0.8702980837473385
+Precision:0.8774197497677649
+Recall:0.8808367106410193
+f1 score:0.8702342517943393
+              precision    recall  f1-score   support
+
+           0       0.79      0.97      0.87      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:7
+Accuracy:0.857389992902768
+Precision:0.8681177007062475
+Recall:0.8694939949600182
+f1 score:0.8573807995654459
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:5
+Accuracy:0.8671930447125621
+Precision:0.875420547366537
+Recall:0.8782478238594587
+f1 score:0.8671516389875629
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:3
+Accuracy:0.8623580553584103
+Precision:0.871270997195293
+Recall:0.8736870491215831
+f1 score:0.8623276553032598
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:2
+Accuracy:0.8510911994322214
+Precision:0.8642214789731995
+Recall:0.8641487920101191
+f1 score:0.8510911756997207
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.06
+Mask number:1
+Accuracy:0.8653300212916962
+Precision:0.8732733019999459
+Recall:0.876223712605416
+f1 score:0.8652828165152855
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.88      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:9
+Accuracy:0.8671486870120653
+Precision:0.8749380206892242
+Recall:0.8779872906927904
+f1 score:0.8670987491447713
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:7
+Accuracy:0.8601401703335699
+Precision:0.8700572038164162
+Recall:0.8719104661505652
+f1 score:0.8601231062597199
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:5
+Accuracy:0.8672817601135557
+Precision:0.8754419514430755
+Recall:0.878304741700437
+f1 score:0.8672391246601443
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:3
+Accuracy:0.8636444286728177
+Precision:0.8722783178719744
+Recall:0.8748549436077482
+f1 score:0.8636096489034839
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.78      0.87     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:2
+Accuracy:0.8540631653655074
+Precision:0.8663893118639111
+Recall:0.8668180693489116
+f1 score:0.8540623280425821
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.87      0.87      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.05
+Mask number:1
+Accuracy:0.8738910574875799
+Precision:0.879793796506686
+Recall:0.8838270547846006
+f1 score:0.8737959109973239
+              precision    recall  f1-score   support
+
+           0       0.79      0.96      0.87      9889
+           1       0.97      0.80      0.88     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:9
+Accuracy:0.8670599716110717
+Precision:0.8747379655628548
+Recall:0.8778419636151722
+f1 score:0.8670076863072087
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:7
+Accuracy:0.8640436479772888
+Precision:0.8728546408834253
+Recall:0.8753431481383299
+f1 score:0.8640118003220745
+              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.86      9889
+           1       0.97      0.78      0.87     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.88      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:5
+Accuracy:0.8767743080198722
+Precision:0.8827004477699423
+Recall:0.8867598977652336
+f1 score:0.8766816372547412
+              precision    recall  f1-score   support
+
+           0       0.80      0.97      0.87      9889
+           1       0.97      0.81      0.88     12655
+
+    accuracy                           0.88     22544
+   macro avg       0.88      0.89      0.88     22544
+weighted avg       0.89      0.88      0.88     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:3
+Accuracy:0.8723385379701917
+Precision:0.8788371606398147
+Recall:0.8825768160121401
+f1 score:0.8722597169636341
+              precision    recall  f1-score   support
+
+           0       0.79      0.97      0.87      9889
+           1       0.97      0.80      0.88     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:2
+Accuracy:0.8512242725337118
+Precision:0.8642613336022167
+Recall:0.8642452199261667
+f1 score:0.851224271362784
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.04
+Mask number:1
+Accuracy:0.8686568488289567
+Precision:0.8757148038081483
+Recall:0.8791427636172818
+f1 score:0.8685909092431172
+              precision    recall  f1-score   support
+
+           0       0.79      0.96      0.87      9889
+           1       0.97      0.79      0.87     12655
+
+    accuracy                           0.87     22544
+   macro avg       0.88      0.88      0.87     22544
+weighted avg       0.89      0.87      0.87     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:9
+Accuracy:0.8507806955287438
+Precision:0.8625367926047484
+Recall:0.8632644079827372
+f1 score:0.8507781011921733
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:7
+Accuracy:0.8458126330731015
+Precision:0.8590645534256592
+Recall:0.8588724330387332
+f1 score:0.8458124583260662
+              precision    recall  f1-score   support
+
+           0       0.75      0.97      0.85      9889
+           1       0.97      0.75      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.87      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:5
+Accuracy:0.8453246983676366
+Precision:0.8591039600929102
+Recall:0.858592538377092
+f1 score:0.8453234904327884
+              precision    recall  f1-score   support
+
+           0       0.75      0.97      0.85      9889
+           1       0.97      0.75      0.84     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.87      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:3
+Accuracy:0.8528211497515968
+Precision:0.86421682616206
+Recall:0.8651702806725574
+f1 score:0.8528166968821324
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.87      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:2
+Accuracy:0.8300212916962385
+Precision:0.8498103461047324
+Recall:0.8453925575068564
+f1 score:0.8299422589646126
+              precision    recall  f1-score   support
+
+           0       0.73      0.97      0.83      9889
+           1       0.97      0.72      0.83     12655
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.01
+Mask number:1
+Accuracy:0.8610716820440029
+Precision:0.8702665240371925
+Recall:0.872519154635418
+f1 score:0.8610454075512202
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:9
+Accuracy:0.8522444996451384
+Precision:0.8638515495455434
+Recall:0.8646787520058186
+f1 score:0.8522411710647942
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:7
+Accuracy:0.84958303761533
+Precision:0.8620978868880512
+Recall:0.8623744544291497
+f1 score:0.8495826750619169
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.87      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:5
+Accuracy:0.8514904187366927
+Precision:0.8634644521721713
+Recall:0.8640733876571229
+f1 score:0.8514886409202183
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:3
+Accuracy:0.855083392476934
+Precision:0.8658346418685561
+Recall:0.8671742433465037
+f1 score:0.8550744588150403
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.85      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:2
+Accuracy:0.8334368346344926
+Precision:0.8518367732491321
+Recall:0.8483464240505406
+f1 score:0.8333862015814923
+              precision    recall  f1-score   support
+
+           0       0.74      0.97      0.84      9889
+           1       0.97      0.73      0.83     12655
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.007
+Mask number:1
+Accuracy:0.8597409510290986
+Precision:0.8691843065379239
+Recall:0.8712896477650238
+f1 score:0.8597180568647079
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:9
+Accuracy:0.8557044002838893
+Precision:0.8662380943891536
+Recall:0.8677052820883118
+f1 score:0.8556936035386697
+              precision    recall  f1-score   support
+
+           0       0.77      0.97      0.85      9889
+           1       0.97      0.77      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:7
+Accuracy:0.8513573456352023
+Precision:0.8633950563564212
+Recall:0.8639659085864955
+f1 score:0.8513557870456003
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.76      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:5
+Accuracy:0.845235982966643
+Precision:0.8591803219377676
+Recall:0.8585687739998535
+f1 score:0.845234270053366
+              precision    recall  f1-score   support
+
+           0       0.75      0.97      0.85      9889
+           1       0.97      0.75      0.84     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.86      0.85     22544
+weighted avg       0.87      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:3
+Accuracy:0.853708303761533
+Precision:0.8648342759730183
+Recall:0.8659494310193603
+f1 score:0.8537021678138093
+              precision    recall  f1-score   support
+
+           0       0.76      0.97      0.85      9889
+           1       0.97      0.77      0.85     12655
+
+    accuracy                           0.85     22544
+   macro avg       0.86      0.87      0.85     22544
+weighted avg       0.88      0.85      0.85     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:2
+Accuracy:0.8418647977288858
+Precision:0.8578699313396051
+Recall:0.8559638498594774
+f1 score:0.8418493231503479
+              precision    recall  f1-score   support
+
+           0       0.75      0.97      0.84      9889
+           1       0.97      0.74      0.84     12655
+
+    accuracy                           0.84     22544
+   macro avg       0.86      0.86      0.84     22544
+weighted avg       0.87      0.84      0.84     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx  Start xxxxxxxxxxxxxxxxxxxxx
+--------------------------------------------------
+Temperature:0.005
+Mask number:1
+Accuracy:0.8600958126330731
+Precision:0.8691407459262446
+Recall:0.8714620633560375
+f1 score:0.8600672650651986
+              precision    recall  f1-score   support
+
+           0       0.77      0.96      0.86      9889
+           1       0.97      0.78      0.86     12655
+
+    accuracy                           0.86     22544
+   macro avg       0.87      0.87      0.86     22544
+weighted avg       0.88      0.86      0.86     22544
+
+--------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxx  end xxxxxxxxxxxxxxxxxxxxx
