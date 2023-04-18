@@ -21,7 +21,7 @@ The idea of our paper can be illustrated as
 3.UNSW-NB15  
 ‘python UNSW_supcontrast_no_fold_93.01.py’  
 
-Acknowledgments
+### Acknowledgments
 ===
 It is an implemenation of the algorithm described in *Yue Y, Chen X, Han Z, et al. Contrastive Learning Enhanced Intrusion Detection[J]. IEEE Transactions on Network and Service Management, 2022.*
 
@@ -34,3 +34,6 @@ To accelerate the training process, gpu is need!!!
 Here we did not fine-tune hyperparameters, such as learning rate.   
 
 To get better result, you need to fine-tune the learning rate, the temperature, the masked_num  
+
+### To be noted
+you need to take care about the mechnism of CNN3D in pytorch to ensure that the features extracted in the right manner.
